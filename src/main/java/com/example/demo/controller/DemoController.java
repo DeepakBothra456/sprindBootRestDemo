@@ -10,7 +10,7 @@ public class DemoController {
 
 	@GetMapping("/getTest")
 	public ResponseEntity<String> getDate(){
-		return new ResponseEntity<>("Deepak",HttpStatus.OK);
+		return new ResponseEntity<>("Deepak Glocalmind",HttpStatus.OK);
 		
 	}
 }
