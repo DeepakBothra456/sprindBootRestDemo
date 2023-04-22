@@ -10,7 +10,7 @@ public class DemoController {
 
 	@GetMapping("/getTest")
 	public ResponseEntity<String> getDate(){
-		return new ResponseEntity<>("Deepak BOTHRA",HttpStatus.OK);
+		return new ResponseEntity<>("Hello How are you",HttpStatus.OK);
 		
 	}
 }
